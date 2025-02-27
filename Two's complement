@@ -1,0 +1,18 @@
+Two's complement is a method  where we  represent a positive or negative intiger in binary.
+we need to follow these steps-
+1) First we have to convert the  number to binary ( In 8- bit form positive ).
+2) Now flip 0 to 1 and 1 to 0 ( also it is called one's complement ).
+3) Add 1 in result.
+
+Example-
+To represent 5 in 8 bit two's complement.
+first,convert 5 to binary-
+5/2 = quotient = 2 remainder = 1
+2/2 = quotient = 1 remainder = 0
+1/2 = quotient = 0 remainder = 1
+result = 101 
+in 8 bit form = 00000101
+One's complement = 11111010
+Add 1 
+11111010 + 1 = 11111011
+so -5 in 8 bit two's complement is 11111011.
