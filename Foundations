@@ -1,5 +1,34 @@
 There are only two number in binary system one is 0 and second is 1.
 This is an important part of computer as it give instruction to the digital electronics to on/ off.
-Addition in binary number when we add 1 + 0 its answer is 1 for o + 1 it is 1 similarly 0 + 0 is 0
+In class we learn to convert real to binary number there are such steps which we need to follow-
+1) first we devide the number by 2.
+2) write the remainder.
+3) Repeat this process until quotient becomes 0.
+4) last step, In this we need to just write the all remainders from base to top.
+
+Example-
+Convert 15 to binary-
+15/2 = quotient 7 and remainder 1 
+7/2 = quotient 3 and remainder 1 
+3/2 = quotient 1 and remainder 1 
+1/2 = quotient 0 and remainder 1 
+Now we have to write all remainders from base to top which is = 1111
+So, the binary no of 15 is 1111
+
+Similarly to convert binary no to real we need to follow some steps-
+1) first we write the given binary number.
+2) We start from right to left then we multiply first binary no with 2^0 second one with 2^1
+third one with 2 ^2 and so on and after multiplying we add all the results.
+
+Example- 
+convert 1111 to binary-
+1 x 2^0 = 1
+1 x 2^1 = 2
+1 x 2^2 = 4
+1 x 2^3 = 8
+sum of all answers = 8 + 4 + 2 + 1 = 15
+
+Addition in binary number when we add 1 + 0 its answer is 1 for o + 1 it is 1 
+similarly 0 + 0 is 0
 but when we add 1 + 1 its answer is 10( carry 1 ) as 1 + 1 is 2 but in binary we write 2 as 10.
 
